@@ -1,0 +1,17 @@
+{
+  "name": "lit-analyzer-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "lit-analyzer index.js"
+  },
+  "devDependencies": {
+    "@types/chromecast-caf-receiver": "^5.0.4",
+    "@types/chromecast-caf-sender": "^1.0.3",
+    "lit-analyzer": "^1.1.10"
+  },
+  "dependencies": {
+    "lit-element": "^2.3.1"
+  }
+}
